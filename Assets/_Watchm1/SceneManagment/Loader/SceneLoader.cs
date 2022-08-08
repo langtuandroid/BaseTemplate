@@ -5,7 +5,8 @@ using System.Linq;
 using _Watchm1.Config;
 using _Watchm1.EventSystem.Events;
 using _Watchm1.Helpers.Logger;
-using Unity.VisualScripting;
+using Sirenix.OdinInspector;
+using Sirenix.Serialization;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -22,6 +23,7 @@ namespace _Watchm1.SceneManagment.Loader
         public static Scene ActiveScene => SceneManager.GetActiveScene();
         public static Scene LastScene => SceneManager.GetSceneAt(SceneManager.sceneCount - 1);
         public static bool IsInitializeSceneLoaded => GetScene(DefaultScene.Initialize.ToString()).isLoaded;
+        public static bool IsGameUISceneLoaded => GetScene(DefaultScene.GameUI.ToString()).isLoaded;
         private List<string> _defaultSceneNames = new();
 
         public void Start()
@@ -97,7 +99,6 @@ namespace _Watchm1.SceneManagment.Loader
 
                 yield return null;
             }
-
         }
         public static void UnloadSceneAsync(string sceneName)
         {
@@ -106,7 +107,6 @@ namespace _Watchm1.SceneManagment.Loader
                 WatchmLogger.Warning($"{sceneName} is not loaded to be unload");
                 return;
             }
-            
             Instance.StartCoroutine(UnloadSceneRoutine(sceneName));
         }
         public static Scene GetScene(string sceneName)

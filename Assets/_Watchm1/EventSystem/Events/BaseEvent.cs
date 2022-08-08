@@ -10,9 +10,9 @@ namespace _Watchm1.EventSystem.Events
 
         public void SafeInvoke(T item)
         {
-            for (var i = _listeners.Count - 1; i>= 0 ; i++)
+            for (var i = _listeners.Count - 1; i>= 0 ; i--)
             {
-                _listeners[i].OnRaised(item);
+                _listeners[i]?.OnRaised(item);
             }
         }
 

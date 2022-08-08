@@ -7,6 +7,11 @@
     <list default="true" id="df71b202-bfaf-4aaf-a5dc-7a921cf364f9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BaseTemplate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BaseTemplate/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Game/Scenes/Initialize.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scenes/Initialize.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Watchm1/EventSystem/Events/BaseEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Watchm1/EventSystem/Events/BaseEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Watchm1/GamePlay/Collectibles/Collectible.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Watchm1/GamePlay/Collectibles/Collectible.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Watchm1/GamePlay/Collectibles/CollectibleManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Watchm1/GamePlay/Collectibles/CollectibleManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Watchm1/GamePlay/DetectableObjects/IDetecableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Watchm1/GamePlay/DetectableObjects/IDetecableObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +20,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../Games/DriftTime/Assets/YamyStudio/VariablesReferences/BaseReference.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Game/Movement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/Config/DefaultScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/Economy/EconomyManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/EditorWindows/WatchmExtensionMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/EventSystem/Events/ObjectEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/EventSystem/Events/SceneEvent.cs" root0="FORCE_HIGHLIGHTING" />
@@ -79,10 +86,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="3952">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="3952" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -104,6 +111,7 @@
       <workItem from="1659605902376" duration="2326000" />
       <workItem from="1659825184022" duration="709000" />
       <workItem from="1659952557682" duration="16820000" />
+      <workItem from="1659984084816" duration="2913000" />
     </task>
     <servers />
   </component>

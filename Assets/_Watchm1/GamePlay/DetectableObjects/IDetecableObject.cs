@@ -1,4 +1,4 @@
-using _Watchm1.DetectableObjects.Detectable;
+ using _Watchm1.DetectableObjects.Detectable;
 
 namespace _Watchm1.DetectableObjects
 {

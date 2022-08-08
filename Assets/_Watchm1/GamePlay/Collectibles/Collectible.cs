@@ -8,7 +8,7 @@ namespace _Watchm1.GamePlay.Collectibles
         [SerializeField] private BaseItem.BaseItem.ItemType type;
         [SerializeField] private int valueOfCollectible;
         [HideInInspector] public CollectibleItem collectibleItem;
-
+        [SerializeField] public int amount;
         private void Start()
         {
             UpdateCollectibleItem();
@@ -19,10 +19,10 @@ namespace _Watchm1.GamePlay.Collectibles
             if (other.CompareTag("Player"))
             {
                 //todo: collectibleManager ile ekleme yapılacak
+                CollectibleManager.Instance.AddAmount(amount);
                 Destroy(gameObject);
             }
         }
-
         private void UpdateCollectibleItem()
         {
             //todo: collectiblemanager üzerinden çekilecek

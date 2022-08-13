@@ -15,7 +15,7 @@ namespace _Watchm1.SceneManagment.Loader
         {
             EditorApplication.playModeStateChanged += ChangePlayModeState;
             CheckScene();
-           
+            
         }
 
         private static void CheckScene()

@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="df71b202-bfaf-4aaf-a5dc-7a921cf364f9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BaseTemplate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BaseTemplate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Settings/Resources/LevelSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Settings/Resources/LevelSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Watchm1/SceneManagment/Loader/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Watchm1/SceneManagment/Loader/SceneLoader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Watchm1/SceneManagment/Loader/StartScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Watchm1/SceneManagment/Loader/StartScene.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +108,7 @@
       <workItem from="1659825184022" duration="709000" />
       <workItem from="1659952557682" duration="16820000" />
       <workItem from="1659984084816" duration="2913000" />
-      <workItem from="1660383941985" duration="579000" />
+      <workItem from="1660383941985" duration="1438000" />
     </task>
     <servers />
   </component>

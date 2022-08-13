@@ -32,7 +32,7 @@ namespace _Watchm1.SceneManagment.Loader
             _defaultSceneNames = defaultSceneToLoad.Select(s => s.ToString()).ToList();
             StartCoroutine(InitScenes());
         }
-
+        
         private void OnEnable()
         {
             SceneManager.sceneLoaded += OnSceneLoaded;
@@ -61,8 +61,13 @@ namespace _Watchm1.SceneManagment.Loader
                 yield return LoadSceneRoutine(sceneName, null, LoadSceneMode.Additive, false);
             }
 
-            yield return LoadSceneRoutine(LevelSettings.Current.allLevelSceneName[0], null, LoadSceneMode.Additive,
-                false);
+            var currentSceneName = LevelSettings.Current.allLevelSceneName[0];
+            LoadSceneAsync(currentSceneName, null, LoadSceneMode.Additive, false);
+            if (GetScene(currentSceneName).isLoaded)
+            {
+                SceneManager.SetActiveScene(SceneManager.GetSceneByName(currentSceneName));
+                WatchmLogger.Log(currentSceneName);                
+            }
         }
         public static void LoadSceneAsync(string sceneName, SceneLoaderEvent loadAsyncEvent = null, LoadSceneMode loadSceneMode = LoadSceneMode.Additive, bool allowSceneActivation = true)
         {

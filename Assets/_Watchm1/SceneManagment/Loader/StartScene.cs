@@ -1,8 +1,10 @@
 using System;
 using _Watchm1.Config;
 using _Watchm1.Helpers.Logger;
+using _Watchm1.SceneManagment.Settings;
 using UnityEditor;
 using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 
 namespace _Watchm1.SceneManagment.Loader
 {
@@ -13,6 +15,7 @@ namespace _Watchm1.SceneManagment.Loader
         {
             EditorApplication.playModeStateChanged += ChangePlayModeState;
             CheckScene();
+           
         }
 
         private static void CheckScene()
@@ -20,7 +23,6 @@ namespace _Watchm1.SceneManagment.Loader
             var activeScene = EditorSceneManager.GetActiveScene();
             if (!activeScene.path.Contains("Assets/_Game/Scenes"))
             {
-                WatchmLogger.Warning($"active scene isn't part of the game => {activeScene.name}");
                 EditorSceneManager.playModeStartScene = null;
             }
 

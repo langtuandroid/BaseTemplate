@@ -5,6 +5,7 @@ using System.Linq;
 using _Watchm1.Config;
 using _Watchm1.EventSystem.Events;
 using _Watchm1.Helpers.Logger;
+using _Watchm1.SceneManagment.Settings;
 using Sirenix.OdinInspector;
 using Sirenix.Serialization;
 using UnityEngine;
@@ -57,9 +58,11 @@ namespace _Watchm1.SceneManagment.Loader
         {
             foreach (var sceneName in _defaultSceneNames.Where(s => !ActiveScene.name.Equals(s)))
             {
-                Debug.Log($"{sceneName}");
                 yield return LoadSceneRoutine(sceneName, null, LoadSceneMode.Additive, false);
             }
+
+            yield return LoadSceneRoutine(LevelSettings.Current.allLevelSceneName[0], null, LoadSceneMode.Additive,
+                false);
         }
         public static void LoadSceneAsync(string sceneName, SceneLoaderEvent loadAsyncEvent = null, LoadSceneMode loadSceneMode = LoadSceneMode.Additive, bool allowSceneActivation = true)
         {

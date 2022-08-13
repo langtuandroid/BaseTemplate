@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df71b202-bfaf-4aaf-a5dc-7a921cf364f9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BaseTemplate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BaseTemplate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Movement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Movement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Prefabs/LevelObjects/Player/Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Prefabs/LevelObjects/Player/Player.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scenes/GameUI.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scenes/GameUI.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scenes/Idle/IdleLevel1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scenes/Idle/IdleLevel1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Settings/Resources/LevelSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Settings/Resources/LevelSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +113,7 @@
       <workItem from="1659952557682" duration="16820000" />
       <workItem from="1659984084816" duration="2913000" />
       <workItem from="1660383941985" duration="2611000" />
-      <workItem from="1660406910590" duration="2521000" />
+      <workItem from="1660406910590" duration="2778000" />
     </task>
     <servers />
   </component>

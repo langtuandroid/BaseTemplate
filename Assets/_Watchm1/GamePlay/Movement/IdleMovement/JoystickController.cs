@@ -1,6 +1,7 @@
 using System;
 using _Watchm1.GamePlay.Movement.Base;
 using _Watchm1.Helpers.Logger;
+using _Watchm1.SceneManagment.Manager;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -32,6 +33,7 @@ namespace _Watchm1.GamePlay.Movement.IdleMovement
 
         private void FixedUpdate()
         {
+            if (LevelManager.Instance.currentState is LevelState.waitingOnfirstTouch or LevelState.Fail) return;
             //todo: ilk tıklama eventi yayınlanma kontrolünü ekle
             if (Input.touchCount > 0)
             {

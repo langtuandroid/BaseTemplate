@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df71b202-bfaf-4aaf-a5dc-7a921cf364f9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BaseTemplate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BaseTemplate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scenes/GameUI.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scenes/GameUI.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Watchm1/EditorWindows/WatchmExtensionMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Watchm1/EditorWindows/WatchmExtensionMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Watchm1/GamePlay/Movement/IdleMovement/JoystickController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Watchm1/GamePlay/Movement/IdleMovement/JoystickController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +20,12 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/38701d0d77094e19b6be8da16348a3443d200/69/b49a2706/IPointerUpHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/38701d0d77094e19b6be8da16348a3443d200/d2/127d1f1c/IDragHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/38701d0d77094e19b6be8da16348a3443d200/d5/0df62c72/IPointerDownHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/77/36c01e34/IFormatProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/86/8d0ed5cc/IConvertible.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Games/DriftTime/Assets/YamyStudio/VariablesReferences/BaseReference.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/Config/DefaultScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/Config/IBaseBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/Config/UISettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/Economy/EconomyManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/EditorWindows/WatchmExtensionMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/EventSystem/Events/ObjectEvent.cs" root0="FORCE_HIGHLIGHTING" />
@@ -36,10 +44,16 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/Generators/MovementGenerator/MovementGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/Generators/TagsGenerator/TagGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/Helpers/Data/LevelData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/Helpers/Effects/Abstract/IEffecter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/Helpers/Logger/WatchmLogger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/Helpers/Singleton/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/SceneManagment/Controller/UIController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/SceneManagment/Loader/StartScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/SceneManagment/Manager/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/SceneManagment/Settings/LevelSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/UI/Abstract/IUIBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/UI/Concrete/UIFadeEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/UI/Concrete/UIObjBuilder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/PointerEventData.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -114,6 +128,7 @@
       <workItem from="1659984084816" duration="2913000" />
       <workItem from="1660383941985" duration="2611000" />
       <workItem from="1660406910590" duration="2778000" />
+      <workItem from="1660913577273" duration="6143000" />
     </task>
     <servers />
   </component>

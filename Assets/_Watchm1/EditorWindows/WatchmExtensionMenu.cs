@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using _Watchm1.Config;
 using _Watchm1.Generators.MovementGenerator;
 using _Watchm1.Generators.TagsGenerator;
 using _Watchm1.Helpers.Logger;
@@ -33,11 +34,24 @@ namespace _Watchm1.EditorWindows
                 CreateAssetIfNotExist(settings, "_Game/Settings/Resources");
             }
             EditorUtility.FocusProjectWindow();
+            Selection.activeObject = settings;
+        }
+        [MenuItem("WATCHMEXTENSION/UI Settings")]
+        static void OpenUISettings()
+        {
+            var settings = UISettings.Current;
+
+            if (settings == null)
+            {
+                settings = CreateInstance<UISettings>();
+                CreateAssetIfNotExist(settings, "_Game/Settings/Resources");
+            }
+            EditorUtility.FocusProjectWindow();
             Selection.activeObject = settings;    
             
             
         }
-        private static void CreateAssetIfNotExist<T>(T obj, string folderName) where T : Object
+        public static void CreateAssetIfNotExist<T>(T obj, string folderName) where T : Object
         {
             try
             {

@@ -1319,8 +1319,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc09f0bb69db6d9438de727e64292a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UICanvas: {fileID: 679424105}
-  GameCanvas: {fileID: 1458300732}
+  uiCanvas: {fileID: 679424105}
+  gameCanvas: {fileID: 1458300732}
+  onFirstTouch: {fileID: 11400000, guid: 56f8e343fdb1b8641b7e672b53c830da, type: 2}
 --- !u!114 &1923224368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1447,7 +1448,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8135886326569738825, guid: 56fae09712773584fb63896d473a98ee, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56fae09712773584fb63896d473a98ee, type: 3}

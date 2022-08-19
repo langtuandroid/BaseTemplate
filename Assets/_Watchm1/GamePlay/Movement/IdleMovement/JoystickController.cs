@@ -37,6 +37,10 @@ namespace _Watchm1.GamePlay.Movement.IdleMovement
             //todo: ilk tıklama eventi yayınlanma kontrolünü ekle
             if (Input.touchCount > 0)
             {
+                if (dynamicJoystick == null)
+                {
+                    dynamicJoystick = FindObjectOfType<DynamicJoystick>();
+                }
                 Movement(dynamicJoystick.Horizontal, dynamicJoystick.Vertical);
                 CanPlay = true;
             }

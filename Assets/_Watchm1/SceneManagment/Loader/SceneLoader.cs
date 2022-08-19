@@ -5,6 +5,7 @@ using System.Linq;
 using _Watchm1.Config;
 using _Watchm1.EventSystem.Events;
 using _Watchm1.Helpers.Logger;
+using _Watchm1.SceneManagment.Manager;
 using _Watchm1.SceneManagment.Settings;
 using Sirenix.OdinInspector;
 using Sirenix.Serialization;
@@ -66,10 +67,11 @@ namespace _Watchm1.SceneManagment.Loader
             if (GetScene(currentSceneName).isLoaded)
             {
                 SceneManager.SetActiveScene(SceneManager.GetSceneByName(currentSceneName));
-                WatchmLogger.Log(currentSceneName);                
+                WatchmLogger.Log(currentSceneName + "burası çalıştı");                
             }
-        }
-        public static void LoadSceneAsync(string sceneName, SceneLoaderEvent loadAsyncEvent = null, LoadSceneMode loadSceneMode = LoadSceneMode.Additive, bool allowSceneActivation = true)
+
+            LevelManager.Instance.currentState = LevelState.waitingOnfirstTouch;
+        } public static void LoadSceneAsync(string sceneName, SceneLoaderEvent loadAsyncEvent = null, LoadSceneMode loadSceneMode = LoadSceneMode.Additive, bool allowSceneActivation = true)
         {
             if (GetScene(sceneName).isLoaded)
             {

@@ -5,6 +5,7 @@ namespace _Watchm1.SceneManagment.Manager
 {
     public enum LevelState
     {
+        loading,
         waitingOnfirstTouch,
         onFirstTouchDone,
         Start,
@@ -20,7 +21,7 @@ namespace _Watchm1.SceneManagment.Manager
         // Start is called before the first frame update
         void Start()
         {
-            currentState = LevelState.waitingOnfirstTouch;
+            currentState = LevelState.loading;
         }
         
     }

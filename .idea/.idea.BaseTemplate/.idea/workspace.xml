@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df71b202-bfaf-4aaf-a5dc-7a921cf364f9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BaseTemplate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BaseTemplate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scenes/GameUI.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scenes/GameUI.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Watchm1/GamePlay/Movement/IdleMovement/JoystickController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Watchm1/GamePlay/Movement/IdleMovement/JoystickController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Watchm1/SceneManagment/Controller/UIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Watchm1/SceneManagment/Controller/UIController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Watchm1/SceneManagment/Loader/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Watchm1/SceneManagment/Loader/SceneLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Watchm1/SceneManagment/Manager/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Watchm1/SceneManagment/Manager/LevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

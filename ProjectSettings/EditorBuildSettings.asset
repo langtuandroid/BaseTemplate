@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Game/Scenes/Idle/IdleLevel1.unity
     guid: bc088a6213e0c254d9c78808884e12dc
+  - enabled: 1
+    path: Assets/_Game/Scenes/Idle/IdleLevel2.unity
+    guid: 91ce65d4893160e429f3a977b0278a6c
   m_configObjects: {}

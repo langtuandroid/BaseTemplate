@@ -9,13 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2883035a25b9d3a44b2e0b41c2450bbe, type: 3}
-  m_Name: LevelSettings
+  m_Script: {fileID: 11500000, guid: 3d8e812fbc7cbe640b0d1b40a1d68510, type: 3}
+  m_Name: OnLevelUpgrade
   m_EditorClassIdentifier: 
-  Type: 0
-  runnerFolder: Assets/_Game/Scenes/Runner
-  idleFolder: Assets/_Game/Scenes/Idle
-  otherFolder: Assets/_Game/Scenes/Other
-  allLevelSceneName:
-  - IdleLevel1
-  - IdleLevel2

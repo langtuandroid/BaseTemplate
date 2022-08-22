@@ -481,7 +481,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 8742355317119033195}
-  dynamicJoystick: {fileID: 0}
 --- !u!95 &8742355317119033195
 Animator:
   serializedVersion: 4

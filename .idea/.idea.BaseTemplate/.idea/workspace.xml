@@ -5,6 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df71b202-bfaf-4aaf-a5dc-7a921cf364f9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BaseTemplate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BaseTemplate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scenes/Idle/IdleLevel1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scenes/Idle/IdleLevel1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scenes/Runner/RunnerLevel1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scenes/Runner/RunnerLevel1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Settings/Resources/LevelSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Settings/Resources/LevelSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Settings/Resources/UISettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Settings/Resources/UISettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +50,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/Helpers/Effects/Abstract/IEffecter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/Helpers/Logger/WatchmLogger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/Helpers/Singleton/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/InputManagment/TouchManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/SceneManagment/Controller/UIController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/SceneManagment/Loader/StartScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/SceneManagment/Manager/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -125,6 +133,8 @@
       <workItem from="1660383941985" duration="2611000" />
       <workItem from="1660406910590" duration="2778000" />
       <workItem from="1660913577273" duration="6143000" />
+      <workItem from="1660988050439" duration="869000" />
+      <workItem from="1661155193248" duration="2442000" />
     </task>
     <servers />
   </component>

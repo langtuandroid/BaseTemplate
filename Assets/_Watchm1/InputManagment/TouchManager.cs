@@ -22,10 +22,10 @@ namespace _Watchm1.InputManagment
         Right,
         Forward,
     }
-    public class TouchManager : Singleton<TouchManager>
+    public class TouchManager : SingletonOdinSerialize<TouchManager>
     {
-        public TouchState currentState;
-        public HorizontalMoveState currentHorizontalState;
+        [OdinSerialize] public TouchState currentState;
+        [OdinSerialize] public HorizontalMoveState currentHorizontalState;
         public float LastDeltaPos { get; private set; }
         private void Start()
         {

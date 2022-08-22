@@ -634,6 +634,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bf307a31b301ef4694d1c3275e8981d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: currentState
+      Entry: 3
+      Data: 0
+    - Name: currentHorizontalState
+      Entry: 3
+      Data: 0
+  dontDestroy: 1
+  currentState: 0
+  currentHorizontalState: 0
 --- !u!1 &1345889299
 GameObject:
   m_ObjectHideFlags: 0
@@ -661,7 +679,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1345889299}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.52, z: 0}
+  m_LocalPosition: {x: 0, y: -0.726, z: 0}
   m_LocalScale: {x: 1, y: 0.47421, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -852,7 +870,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1526234395}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.797, z: -10.25}
+  m_LocalPosition: {x: 0, y: 0.978, z: -10.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

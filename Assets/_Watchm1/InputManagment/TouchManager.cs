@@ -71,12 +71,11 @@ namespace _Watchm1.InputManagment
             {
                 if (LastDeltaPos - touch.deltaPosition.x < 0)
                 {
-                    currentHorizontalState = HorizontalMoveState.Left;
+                    currentHorizontalState = HorizontalMoveState.Right;
                 }
-
                 if (LastDeltaPos - touch.deltaPosition.x > 0)
                 {
-                    currentHorizontalState = HorizontalMoveState.Right;
+                    currentHorizontalState = HorizontalMoveState.Left;
                 }
                 currentState = TouchState.TouchMoved;
             }

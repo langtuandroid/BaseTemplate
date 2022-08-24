@@ -51,6 +51,22 @@ namespace _Watchm1.EditorWindows
             
             
         }
+        [MenuItem("WATCHMEXTENSION/Game Settings")]
+
+        static void OpenGameSettings()
+        {
+            var settings = GameSettings.Current;
+
+            if (settings == null)
+            {
+                settings = CreateInstance<GameSettings>();
+                CreateAssetIfNotExist(settings, "_Game/Settings/Resources");
+            }
+            EditorUtility.FocusProjectWindow();
+            Selection.activeObject = settings;    
+            
+            
+        }
         public static void CreateAssetIfNotExist<T>(T obj, string folderName) where T : Object
         {
             try

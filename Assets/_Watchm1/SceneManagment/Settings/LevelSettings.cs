@@ -22,7 +22,7 @@ namespace _Watchm1.SceneManagment.Settings
     }
     [CreateAssetMenu(fileName = "LevelSettings", menuName = "Wathcm1Extension/Create Level settings")]
     public class LevelSettings : BaseSettings<LevelSettings>
-    {
+    {   
         [SerializeField, OnValueChanged("OnSceneFolderTypeChanged")] public GameType Type = GameType.Runner;
         [SerializeField, ShowIf("Type", GameType.Runner)] private string runnerFolder = "Assets/_Game/Scenes/Runner";
         [SerializeField, ShowIf("Type", GameType.Idle)] private string idleFolder = "Assets/_Game/Scenes/Idle";
@@ -32,7 +32,6 @@ namespace _Watchm1.SceneManagment.Settings
             $"Assets/{Path.DirectorySeparatorChar}_Game{Path.DirectorySeparatorChar}Scenes{Path.DirectorySeparatorChar}Runner";
 
         [SerializeField] public List<string> allLevelSceneName = new();
-
         private static List<string> DefaultSceneNames
         {
             get
@@ -48,10 +47,12 @@ namespace _Watchm1.SceneManagment.Settings
         #if UNITY_EDITOR
         public void OnSceneFolderTypeChanged()
         {
+            // adding gamesettings fixing
             CheckSceneFolder();
             ResetList();
             UpdateBuildList();
         }
+        
 
         private List<string> GetAllLevelSceneNames()
         {

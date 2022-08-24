@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/_Game/Scenes/GameUI.unity
     guid: de5cd9dd1f7278b4c801ce3a22610ac6
   - enabled: 1
-    path: Assets/_Game/Scenes/Idle/IdleLevel1.unity
-    guid: bc088a6213e0c254d9c78808884e12dc
-  - enabled: 1
-    path: Assets/_Game/Scenes/Idle/IdleLevel2.unity
-    guid: 91ce65d4893160e429f3a977b0278a6c
+    path: Assets/_Game/Scenes/Runner/RunnerLevel1.unity
+    guid: 2c130ef3a9de8d34891d11dae8d3118d
   m_configObjects: {}

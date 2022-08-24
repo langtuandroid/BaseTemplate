@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df71b202-bfaf-4aaf-a5dc-7a921cf364f9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BaseTemplate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BaseTemplate/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Game/Scenes/Runner/RunnerLevel1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scenes/Runner/RunnerLevel1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Watchm1/InputManagment/TouchManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Watchm1/InputManagment/TouchManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Settings/Resources/LevelSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Settings/Resources/LevelSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Watchm1/Config/BaseSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Watchm1/Config/BaseSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Watchm1/EditorWindows/WatchmExtensionMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Watchm1/EditorWindows/WatchmExtensionMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Watchm1/SceneManagment/Settings/LevelSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Watchm1/SceneManagment/Settings/LevelSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +54,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/SceneManagment/Controller/UIController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/SceneManagment/Loader/StartScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/SceneManagment/Manager/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/SceneManagment/Settings/GameSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/SceneManagment/Settings/LevelSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/UI/Abstract/IUIBuilder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Watchm1/UI/Concrete/UIFadeEffect.cs" root0="FORCE_HIGHLIGHTING" />
@@ -128,7 +135,8 @@
       <workItem from="1660406910590" duration="2778000" />
       <workItem from="1660913577273" duration="6143000" />
       <workItem from="1660988050439" duration="869000" />
-      <workItem from="1661155193248" duration="2822000" />
+      <workItem from="1661155193248" duration="3476000" />
+      <workItem from="1661336975176" duration="1597000" />
     </task>
     <servers />
   </component>

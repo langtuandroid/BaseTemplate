@@ -15,3 +15,5 @@ MonoBehaviour:
   restrictedDistance: 4
   playerForwardSpeed: 10
   playerHorizontalSpeed: 20
+  playerRotateAngle: 70
+  playerRotateSpeed: 20

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac1fa759f64d5f84dbc31617e5289be4, type: 3}
   m_Name: UISettings
   m_EditorClassIdentifier: 
-  gameBackground: {fileID: 21300000, guid: fa8a4a4b59eaacc468bfc3225a7911b1, type: 3}
-  icon: {fileID: 21300000, guid: de653f5c939cdce4e95e377277870073, type: 3}
+  gameBackground: {fileID: 21300000, guid: ed1fe5dcd99c2784cbc96eb7ccb05c89, type: 3}
+  icon: {fileID: 21300000, guid: 7f2a62a8e2c60bc4d862034785c982a5, type: 3}

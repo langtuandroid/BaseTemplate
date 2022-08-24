@@ -111,6 +111,7 @@ GameObject:
   - component: {fileID: 4344765009014087710}
   - component: {fileID: 4344765009014087711}
   - component: {fileID: 4344765009014087708}
+  - component: {fileID: 4344765008861181376}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -206,6 +207,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   relativeObject: {fileID: 4344765010200695213}
   ignoreHorizontalMovement: 0
+--- !u!114 &4344765008861181376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4344765009014087712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fef4043ae4d6c844b36ad25c27528eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ignoreRotate: 0
 --- !u!1 &4344765009468468975
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,7 +332,7 @@ Transform:
   m_GameObject: {fileID: 4344765010073865159}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.017, y: 0.6761674, z: 0.3516426}
-  m_LocalScale: {x: 0.58123, y: 0.16655, z: 0.2836638}
+  m_LocalScale: {x: 0.7773243, y: 0.16655, z: 0.2836638}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4344765008776596233}

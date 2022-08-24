@@ -19,5 +19,7 @@ namespace _Watchm1.SceneManagment.Settings
         [SerializeField] [ShowIf(condition:"Type" , optionalValue: GameType.Runner)] public float restrictedDistance;
         [SerializeField] [ShowIf(condition:"Type" , optionalValue: GameType.Runner)] public float playerForwardSpeed;
         [SerializeField] [ShowIf(condition:"Type" , optionalValue: GameType.Runner)] public float playerHorizontalSpeed;
+        [SerializeField] [ShowIf(condition:"Type" , optionalValue: GameType.Runner)] public float playerRotateAngle;
+        [SerializeField] [ShowIf(condition:"Type" , optionalValue: GameType.Runner)] public float playerRotateSpeed;
     }
 }

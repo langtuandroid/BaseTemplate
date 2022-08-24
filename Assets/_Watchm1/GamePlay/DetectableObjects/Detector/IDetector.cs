@@ -1,9 +1,10 @@
-using _Watchm1.DetectableObjects.Detectable;
+using _Watchm1.GamePlay.DetectableObjects.Detectable;
+using UnityEngine;
 
-namespace _Watchm1.DetectableObjects.Detector
+namespace _Watchm1.GamePlay.DetectableObjects.Detector
 {
     public interface IDetector
     {
-        void ManageDetection(DetectableType type);
+        void ManageDetection(DetectableType type, IDetecableObject detecableObject);
     }
 }

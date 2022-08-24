@@ -1,4 +1,4 @@
-namespace _Watchm1.DetectableObjects.Detectable
+namespace _Watchm1.GamePlay.DetectableObjects.Detectable
 {
     public enum DetectableType
     {
@@ -6,5 +6,6 @@ namespace _Watchm1.DetectableObjects.Detectable
         CheckPoint,
         LevelSuccessPoint,
         RespawnPoint,
+        Door,
     }
 }

@@ -8,7 +8,7 @@ namespace _Watchm1.GamePlay.Movement.RunnerMovement
     public class FollowRelativeObject : MonoBehaviour
     {
         #region Fields
-        [SerializeField] private GameObject relativeObject;
+        [SerializeField] public GameObject relativeObject;
         [SerializeField] private bool ignoreHorizontalMovement;
         private Transform _self;
        

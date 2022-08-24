@@ -24,8 +24,8 @@ namespace _Watchm1.InputManagment
     }
     public class TouchManager : SingletonOdinSerialize<TouchManager>
     {
-        [OdinSerialize] public TouchState currentState;
-        [OdinSerialize] public HorizontalMoveState currentHorizontalState;
+        public TouchState currentState;
+        public HorizontalMoveState currentHorizontalState;
         public float LastDeltaPos { get; private set; }
         private void Start()
         {
@@ -35,11 +35,7 @@ namespace _Watchm1.InputManagment
 
         private void Update()
         {
-            if (LevelManager.Instance.currentState == LevelState.Fail ||
-                LevelManager.Instance.currentState == LevelState.loading ||
-                LevelManager.Instance.currentState == LevelState.Finished
-                || LevelManager.Instance.currentState == LevelState.Success ||
-                LevelManager.Instance.currentState == LevelState.waitingOnfirstTouch)
+            if (!LevelManager.Instance.PlayModeActive())
             {
                 return;
             }

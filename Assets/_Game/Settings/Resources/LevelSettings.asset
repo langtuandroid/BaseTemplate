@@ -18,4 +18,3 @@ MonoBehaviour:
   otherFolder: Assets/_Game/Scenes/Other
   allLevelSceneName:
   - RunnerLevel1
-  settings: {fileID: 11400000, guid: f128e3cc9c961614a86bc56c49d4b186, type: 2}

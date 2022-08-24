@@ -23,6 +23,22 @@ namespace _Watchm1.SceneManagment.Manager
         {
             currentState = LevelState.loading;
         }
-        
+
+
+        public bool PlayModeActive()
+        {
+            if (currentState == LevelState.Fail ||
+                currentState == LevelState.loading ||
+                currentState == LevelState.Finished
+                || currentState == LevelState.Success ||
+                currentState == LevelState.waitingOnfirstTouch)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
     }
 }

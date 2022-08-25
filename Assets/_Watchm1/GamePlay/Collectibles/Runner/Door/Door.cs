@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using _Watchm1.GamePlay.DetectableObjects;
 using _Watchm1.GamePlay.DetectableObjects.Detectable;
 using _Watchm1.GamePlay.Movement.RunnerMovement;
+using _Watchm1.Helpers.Extensible.@abstract;
+using _Watchm1.Helpers.Extensible.concrete;
 using _Watchm1.Helpers.Logger;
 using _Watchm1.SceneManagment.Loader;
 using _Watchm1.SceneManagment.Manager;
@@ -29,7 +31,7 @@ namespace _Watchm1.GamePlay.Collectibles.Runner.Door
         increase,
         division,
     }
-    public class Door : SerializedMonoBehaviour, IDetecableObject
+    public class Door : SerializedMonoBehaviour, IDetecableObject, IExtensiable
     {
         [HideInInspector]public DetectableType DetectableType { get; set; }
         [OdinSerialize] private DoorType Type { get; set; }
@@ -38,7 +40,7 @@ namespace _Watchm1.GamePlay.Collectibles.Runner.Door
         [OdinSerialize] [ShowIf("Type", DoorType.Replicator)] private GameObject _parent;
         [OdinSerialize] [ShowIf("Type", DoorType.Replicator)] private GameObject _prefab;
         [OdinSerialize] [ShowIf("Type", DoorType.Replicator)] private GameObject _textObj;
-        
+        [OdinSerialize] [ShowIf("Type", DoorType.Replicator)] private GameObject _colorObject;
         [OdinSerialize] [ShowIf("Type", DoorType.ModifierModel)] private List<GameObject> _models;
         private bool _touched = false;
         private TextMeshProUGUI _text;
@@ -47,6 +49,12 @@ namespace _Watchm1.GamePlay.Collectibles.Runner.Door
             DetectableType = DetectableType.Door;
             _text = _textObj.gameObject.GetComponent<TextMeshProUGUI>();
             _text.text = _replicationCount.ToString();
+            if (Type != DoorType.Replicator)
+            {
+                return;
+            };
+            var state = ReplicatorTypeType is ReplicatorType.increase or ReplicatorType.multiplier;
+            this.ChangeColor(state? Color.green : Color.red, _colorObject);
         }
         private void Update()
         {
@@ -98,7 +106,7 @@ namespace _Watchm1.GamePlay.Collectibles.Runner.Door
                     throw new ArgumentOutOfRangeException();
             }
         }
-
+        
         private void IncreaseObjects(int number)
         {
             for (int i = 0; i < number; i++)
@@ -108,7 +116,7 @@ namespace _Watchm1.GamePlay.Collectibles.Runner.Door
             }
         }
 
-        private void SubstractionObject(int number)
+        private void SubstractObject(int number)
         {
             for (int i = number; i > 0; i--)
             {

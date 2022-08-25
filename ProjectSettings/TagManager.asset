@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - DoorCanvas
+  - ChangeableColor
   layers:
   - Default
   - TransparentFX

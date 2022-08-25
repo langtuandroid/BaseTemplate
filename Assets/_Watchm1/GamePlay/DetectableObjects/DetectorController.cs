@@ -24,4 +24,4 @@ namespace _Watchm1.GamePlay.DetectableObjects
     }
 
     
-}
+}   

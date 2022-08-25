@@ -549,42 +549,64 @@ PrefabInstance:
       objectReference: {fileID: 2360989518220974658, guid: 5c7e2e6d702b01e4cb727bf7da49128c, type: 3}
     - target: {fileID: 2360989518220974658, guid: 5c7e2e6d702b01e4cb727bf7da49128c, type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2360989518220974658, guid: 5c7e2e6d702b01e4cb727bf7da49128c, type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
-      value: '"path":"_parent","value":null'
+      value: '"path":"_colorObject","value":$eref:0'
       objectReference: {fileID: 0}
     - target: {fileID: 2360989518220974658, guid: 5c7e2e6d702b01e4cb727bf7da49128c, type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[1]
-      value: '"path":"_prefab","value":$eref:0'
+      value: '"path":"_parent","value":null'
       objectReference: {fileID: 0}
     - target: {fileID: 2360989518220974658, guid: 5c7e2e6d702b01e4cb727bf7da49128c, type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"_prefab","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2360989518220974658, guid: 5c7e2e6d702b01e4cb727bf7da49128c, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[3]
       value: '"path":"_replicationCount","value":{"$id":0,"$type":"System.Int32,
         mscorlib",2}'
       objectReference: {fileID: 0}
     - target: {fileID: 2360989518220974658, guid: 5c7e2e6d702b01e4cb727bf7da49128c, type: 3}
-      propertyPath: serializationData.PrefabModifications.Array.data[3]
-      value: '"path":"_textObj","value":$eref:1'
+      propertyPath: serializationData.PrefabModifications.Array.data[4]
+      value: '"path":"_textObj","value":$eref:2'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2360989518220974658, guid: 5c7e2e6d702b01e4cb727bf7da49128c, type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[5]
+      value: '"path":"ReplicatorTypeType","value":{"$id":0,"$type":"_Watchm1.GamePlay.Collectibles.Runner.Door.ReplicatorType,
+        Assembly-CSharp",1}'
       objectReference: {fileID: 0}
     - target: {fileID: 2360989518220974658, guid: 5c7e2e6d702b01e4cb727bf7da49128c, type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2360989518220974658, guid: 5c7e2e6d702b01e4cb727bf7da49128c, type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
-      objectReference: {fileID: 665028115}
+      objectReference: {fileID: 1690631327}
     - target: {fileID: 2360989518220974658, guid: 5c7e2e6d702b01e4cb727bf7da49128c, type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
       value: 
+      objectReference: {fileID: 665028115}
+    - target: {fileID: 2360989518220974658, guid: 5c7e2e6d702b01e4cb727bf7da49128c, type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[2]
+      value: 
       objectReference: {fileID: 1690631326}
+    - target: {fileID: 2360989519397193720, guid: 5c7e2e6d702b01e4cb727bf7da49128c, type: 3}
+      propertyPath: m_TagString
+      value: ChangeableColor
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c7e2e6d702b01e4cb727bf7da49128c, type: 3}
 --- !u!1 &1690631326 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2360989519059756341, guid: 5c7e2e6d702b01e4cb727bf7da49128c, type: 3}
+  m_PrefabInstance: {fileID: 1690631325}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1690631327 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2360989519397193720, guid: 5c7e2e6d702b01e4cb727bf7da49128c, type: 3}
   m_PrefabInstance: {fileID: 1690631325}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1744133163 stripped

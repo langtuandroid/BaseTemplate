@@ -8,11 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BaseTemplate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BaseTemplate/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Game/Prefabs/LevelObjects/Player/RunnerFinalPrefabs/Wrapper.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Prefabs/LevelObjects/Player/RunnerFinalPrefabs/Wrapper.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Game/Scenes/Runner/RunnerLevel1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scenes/Runner/RunnerLevel1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Watchm1/GamePlay/DetectableObjects/Detectable/DetectableType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Watchm1/GamePlay/DetectableObjects/Detectable/DetectableType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Watchm1/GamePlay/DetectableObjects/Detector/IDetector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Watchm1/GamePlay/DetectableObjects/Detector/IDetector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Watchm1/GamePlay/DetectableObjects/IDetecableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Watchm1/GamePlay/DetectableObjects/IDetecableObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Watchm1/GamePlay/Movement/RunnerMovement/FollowRelativeObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Watchm1/GamePlay/Movement/RunnerMovement/FollowRelativeObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Watchm1/GamePlay/Collectibles/Runner/Door/Door.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Watchm1/GamePlay/Collectibles/Runner/Door/Door.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,22 +72,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Discover.Launch.Via.Unity": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "rider.run.widget.enabled.cache": "false",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;rider.run.widget.enabled.cache&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="E:\Editör\2021.3.6f1\Editor\Unity.exe" />
@@ -142,7 +139,8 @@
       <workItem from="1660988050439" duration="869000" />
       <workItem from="1661155193248" duration="3476000" />
       <workItem from="1661336975176" duration="5991000" />
-      <workItem from="1661374755309" duration="6358000" />
+      <workItem from="1661374755309" duration="6719000" />
+      <workItem from="1661417842234" duration="914000" />
     </task>
     <servers />
   </component>

@@ -38,8 +38,7 @@ namespace _Watchm1.GamePlay.Collectibles.Runner.Door
         [OdinSerialize] [ShowIf("Type", DoorType.Replicator)] private GameObject _textObj;
         
         [OdinSerialize] [ShowIf("Type", DoorType.ModifierModel)] private List<GameObject> _models;
-
-        
+        private bool _touched = false;
         private TextMeshProUGUI _text;
         private void Start()
         {
@@ -47,40 +46,37 @@ namespace _Watchm1.GamePlay.Collectibles.Runner.Door
             _text = _textObj.gameObject.GetComponent<TextMeshProUGUI>();
             _text.text = _replicationCount.ToString();
         }
-
         private void Update()
         {
             if (!LevelManager.Instance.PlayModeActive())
             {
                 return;
             }
-            
         }
         private void HandleLogicOfReplicator()
         {
+            if (_touched) return;
             switch (ReplicatorTypeType)
             {
                 case ReplicatorType.increase:
                 {
-                    WatchmLogger.Log(_replicationCount);
-                    for (int i = 0; i < _replicationCount; i++)
-                    {
-                        WatchmLogger.Log("içerde");
-                        var obj= Instantiate(_prefab, _parent.transform.position, Quaternion.identity);
-                        obj.transform.parent = _parent.transform;
-                        obj.GetComponent<FollowRelativeObject>().relativeObject =
-                            FindObjectOfType<HorizontalMovementController>().gameObject;
-                    }
-                    
+                    IncreaseObjects(_replicationCount);
                     break;
                 }
                 case ReplicatorType.multiplier:
+                    //todo: in this case we need a list objects of wrappers (for counts)
                     break;
                 case ReplicatorType.substract:
+                    //todo: in this case we need a list objects of wrappers (for counts)
                     break;
                 case ReplicatorType.division:
+                    //todo: in this case we need a list objects of wrappers (for counts)
                     break;
+                default:
+                    throw new ArgumentOutOfRangeException();
             }
+
+            _touched = true;
         }
         private void HandleLogicOfModifier()
         {
@@ -96,6 +92,28 @@ namespace _Watchm1.GamePlay.Collectibles.Runner.Door
                 case DoorType.ModifierModel:
                     HandleLogicOfModifier();
                     break;
+                default:
+                    throw new ArgumentOutOfRangeException();
+            }
+        }
+
+        private void IncreaseObjects(int number)
+        {
+            for (int i = 0; i < number; i++)
+            {
+                var obj= Instantiate(_prefab, transform.position + new Vector3(0,1,0), Quaternion.identity);
+                //todo: adding a object for all wrappers and controlling them counts (List<GameObject>)
+            }
+        }
+
+        private void SubstractionObject(int number)
+        {
+            for (int i = number; i > 0; i--)
+            {
+                // example Destroy(list[i].gameObject);
+                //example list.remove(list[i]);
+                //todo: adding a object for all wrappers and controlling them counts (List<GameObject>)
+                
             }
         }
     }

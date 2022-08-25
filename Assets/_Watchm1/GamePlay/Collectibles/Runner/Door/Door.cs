@@ -4,12 +4,14 @@ using _Watchm1.GamePlay.DetectableObjects;
 using _Watchm1.GamePlay.DetectableObjects.Detectable;
 using _Watchm1.GamePlay.Movement.RunnerMovement;
 using _Watchm1.Helpers.Logger;
+using _Watchm1.SceneManagment.Loader;
 using _Watchm1.SceneManagment.Manager;
 using _Watchm1.SceneManagment.Settings;
 using Sirenix.OdinInspector;
 using Sirenix.Serialization;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 
 namespace _Watchm1.GamePlay.Collectibles.Runner.Door

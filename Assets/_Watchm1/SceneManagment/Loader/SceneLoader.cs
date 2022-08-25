@@ -33,7 +33,6 @@ namespace _Watchm1.SceneManagment.Loader
             _defaultSceneNames = defaultSceneToLoad.Select(s => s.ToString()).ToList();
             StartCoroutine(InitScenes());
         }
-        
         private void OnEnable()
         {
             SceneManager.sceneLoaded += OnSceneLoaded;
@@ -67,7 +66,6 @@ namespace _Watchm1.SceneManagment.Loader
             if (GetScene(currentSceneName).isLoaded)
             {
                 SceneManager.SetActiveScene(SceneManager.GetSceneByName(currentSceneName));
-                WatchmLogger.Log(currentSceneName + "burası çalıştı");                
             }
 
             LevelManager.Instance.currentState = LevelState.waitingOnfirstTouch;
@@ -103,7 +101,6 @@ namespace _Watchm1.SceneManagment.Loader
                 if (op.progress >= 0.9f)
                 {
                     loaderEvent?.Invoke(op.progress, true);
-                    WatchmLogger.Log("loaded scene => " + sceneName);
                     op.allowSceneActivation = true;
                 }
 

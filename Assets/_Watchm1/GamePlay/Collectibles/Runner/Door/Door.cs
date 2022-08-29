@@ -46,7 +46,7 @@ namespace _Watchm1.GamePlay.Collectibles.Runner.Door
         private TextMeshProUGUI _text;
         private void Start()
         {
-            DetectableType = DetectableType.Door;
+            DetectableType = DetectableType.Door; 
             _text = _textObj.gameObject.GetComponent<TextMeshProUGUI>();
             _text.text = _replicationCount.ToString();
             if (Type != DoorType.Replicator)

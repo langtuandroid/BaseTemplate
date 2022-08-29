@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="df71b202-bfaf-4aaf-a5dc-7a921cf364f9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BaseTemplate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BaseTemplate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scenes/Runner/RunnerLevel1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scenes/Runner/RunnerLevel1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Watchm1/GamePlay/Collectibles/Runner/Door/Door.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Watchm1/GamePlay/Collectibles/Runner/Door/Door.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Watchm1/GamePlay/DetectableObjects/DetectorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Watchm1/GamePlay/DetectableObjects/DetectorController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +141,8 @@
       <workItem from="1661336975176" duration="5991000" />
       <workItem from="1661374755309" duration="6719000" />
       <workItem from="1661417842234" duration="1979000" />
-      <workItem from="1661463742509" duration="2353000" />
+      <workItem from="1661463742509" duration="2736000" />
+      <workItem from="1661511537921" duration="1243000" />
     </task>
     <servers />
   </component>
